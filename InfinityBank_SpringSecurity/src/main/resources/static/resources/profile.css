@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body{
+	
+	
+	width: 100vw;
+	
+	}
+
+* {
+	margin: 0;
+	padding:0;
+  text-align: center;
+  color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.highlight{
+	font-weight: bold; 
+}
+
+
+.box {
+	border: solid 1px hotpink; 
+	
+	width: 30%; 
+	margin: auto; 
+	
+	padding: 15px; 
+	border-radius: 5px; 
+}
+
+form {
+	margin: auto; 
+	padding: 0; 
+}
+
+.transactionHistoryForm{
+	width: 100%: 
+	
+}
+
+
+.button{
+	width: 100%; 
+	color: white; 
+	
+	background-color: lightpink; 
+	border-radius: 5px; 
+	border-style: none;
+	
+	padding: 5px; 
+}
+
+.button:hover{
+	width: 100%; 
+	
+	background-color: hotpink; 
+}
+
+.formSubmit{
+	border-style: none;
+color: white;
+	
+	 border-radius: 5px;
+	 background-color: hotpink; 
+	 
+	 padding: 5px; 
+	 
+	 margin: 5px; 
+}
+
+.formSubmit:hover{
+	 
+	background-color: lightpink; 
+	border-style: none; 
+}
+
+body {
+	background-image: url(img2.jpg);
+  background-size: cover; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.flexContainer{
+	display: flex; 
+	flex-direction: row; 
+	flex-wrap: wrap; 
+	align-items: center; 
+	
+}
+
+.flexItem{
+	
+	height: 50vh; 
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+	
+	.content{
+	margin-top: 50px;}
+
+	.flexContainer{
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	width: 100vw;
+	
+}
+
+.flexItem{
+	
+	height: 160px; 
+	padding: 10vw; 
+	width:70vw;
+	
+}
+	
+	} 
+
+

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+
+.navBar {
+	height: 20vh; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+	
+}
+
+.navItem{
+	
+	border-style: none; 
+	color: black; 
+	margin-left: 20px; 
+	margin-right: 40px;
+	text-decoration: none;
+	
+}
+
+.navItem:hover{
+	
+	border-style: none; 
+	color: Maroon; 
+	background-color:white; 
+	
+}
+
+.burger{
+	display:none;
+}
+
+.mobileBar{
+	display: none ;
+	flex-direction: column; 
+	width: 100vw;
+	position: absolute; 
+	bottom: 40px;
+}
+
+.mobileNavItem{
+	display:block;
+	border: none; 
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+.mobileNavItem:hover{
+	background-color: white;
+	color: black;
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	.navBar{
+	display: none;}
+	
+	.burger{
+	display:block;
+	}
+	
+	
+	
+}
+
+
+

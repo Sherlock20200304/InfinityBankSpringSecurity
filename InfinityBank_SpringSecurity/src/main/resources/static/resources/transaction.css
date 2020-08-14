@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+  text-align: center;
+  color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0; 
+   padding: 0; 
+  
+}
+
+
+
+
+
+.formSubmit{
+	background-color: Grey; 
+	color: HoneyDew;
+	border:none; 
+	padding: 5px; 
+}
+
+.formSubmit:hover{
+	background-color: hotpink; 
+}
+
+.flexContainer{
+	display: flex; 
+	height: 100vh;
+	flex-direction: column; 
+	align-items: center;
+}
+
+.flexItem{
+	margin-top: 25px; 
+	width: 30vw; 
+}
+
+body {
+	background-image: url(img2.jpg);
+  background-size: cover; 
+  margin: 0; 
+  padding: 0; 
+}
+
+@media only screen and (max-width: 1024px) {
+	
+	.flexContainer{
+	margin-top: 50px;}
+	}
